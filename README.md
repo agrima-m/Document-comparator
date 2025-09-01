@@ -30,27 +30,27 @@ No messy redlines. No complex diff views. Just clear insights.
    git clone https://github.com/your-username/document-difference-summarizer.git
    cd document-difference-summarizer
    
-2. Create a virtual environment & activate it:
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+2. Create a virtual environment & activate it:<br>
+python -m venv venv <br>
+source venv/bin/activate   # macOS/Linux <br>
+venv\Scripts\activate      # Windows <br>
 
-3. Install dependencies:
-pip install -r requirements.txt
+3. Install dependencies: <br>
+pip install -r requirements.txt <br>
 
-4. Set up your OpenAI API key:
-Create a .env file in the project root.
-Add the line:
-OPENAI_API_KEY=your_api_key_here
+4. Set up your OpenAI API key: <br>
+Create a .env file in the project root. <br>
+Add the line:<br> 
+OPENAI_API_KEY=your_api_key_here<br>
 
-▶️ Usage
-Run the Streamlit app:
-streamlit run app.py
-Open your browser at http://localhost:8501 and start comparing!
+▶️ Usage <br>
+Run the Streamlit app:<br>
+streamlit run app.py<br>
+Open your browser at http://localhost:8501 and start comparing!<br>
 
-📈 Example
-Upload two drafts of a document.
-Get a concise summary of additions, removals, and wording changes.
+📈 Example<br>
+Upload two drafts of a document.<br>
+Get a concise summary of additions, removals, and wording changes.<br>
 
-📜 License
+📜 License<br>
 This project is licensed under the MIT License.
